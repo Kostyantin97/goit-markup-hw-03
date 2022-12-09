@@ -251,6 +251,8 @@ ul {
     background-color:var(--footer-background-color);
     display: flex;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .headline {
@@ -339,6 +341,9 @@ ul {
 
 /* section-responsibilities */
 
+.section-responsibilities {
+    padding-top: 0;
+}
 .topic {
     color:var(--title-text-color);
     font-style: normal;
@@ -513,7 +518,6 @@ ul {
 }
 
 
-
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* вторичный цвет текста color: rgba(255, 255, 255, 0.6); */
@@ -607,8 +611,6 @@ ul {
 .button-nav {
     display: flex;
     justify-content: center;
-    margin-top: 94px;
-    margin-bottom: 50px;
 }
 .button-primary {
     font-family: inherit;
